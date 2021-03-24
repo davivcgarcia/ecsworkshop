@@ -148,7 +148,7 @@ The manifest is a declarative yaml template that defines the desired state of ou
 It was created automatically when we ran through the setup wizard (running copilot init), and includes details such as docker image, port, load balancer requirements, environment variables/secrets, as well as resource allocation. 
 It dynamically populates this file based off of the Dockerfile as well as opinionated, sane defaults.
 
-Open the manifest file (./copilot/ecsdemo-frontend/manifest.yml), and replace the value of the count key from 1 to 3. This is declaring our state of the service to change from 1 task, to 3.
+Open the manifest file (ecsdemo-frontend/copilot/ecsdemo-frontend/manifest.yml), and replace the value of the count key from 1 to 3. This is declaring our state of the service to change from 1 task, to 3.
 Feel free to explore the manifest file to familiarize yourself.
 
 ```
